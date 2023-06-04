@@ -1,0 +1,128 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgb(213, 49, 3);
+    padding: 20px;
+    
+    text-align: center;
+  }
+  header h1{
+    color: #ffffff;
+    
+  }
+  
+  main {
+    max-width: 100%;
+    /* margin: 20px auto; */
+    display: flex;
+
+    padding: 0 20px;
+    /* border: 2px solid blue; */
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  #menu{
+    width: 800px;
+    /* margin-left: 100px; */
+  }
+  #menu > h2{
+    /* width: 800px; */
+    margin-left: 50px;
+  }
+  .menu-items {
+    list-style: none;
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+    /* border: 2px solid red; */
+    border-radius: 2%;
+    
+    
+  }
+  .menu-items:hover{
+    box-shadow: 0 0 10px rgb(194, 194, 194);
+  }
+  
+  
+  
+  #order-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #status-msg {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .food-img{
+    border-radius: 20px;
+    width: 220px;
+    padding: 0px;
+  }
+  #price{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    /* background-color: #4CAF50; */
+    width: fit-content;
+    padding: 5px;
+    color: #8a8a8a;
+  }
+  #container{
+    /* border: 2px solid red; */
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+
+  }
+  .right{
+    /* border: 2px solid black; */
+    width: 500px;
+    margin: 65px;
+    padding: 10px;
+    padding-left: 50px;
+    color: #f8f8f8;
+    background-color: rgb(213, 49, 3);
+  }
+  .right h2{
+    color: #f8f8f8;
+  }
+  .menu-items1 {
+    
+    padding: 20px;
+    width: 400px;
+    height: 90px;
+    border: 2px solid rgb(97, 97, 97);
+    
+    background-color: #ffffff;
+    /* border-radius: 2%; */
+    display: flex;
+    margin: 20px 0;
+    
+    
+  }
+  .food-img1{
+    border-radius: 4px;
+    width: 200px;
+    padding: 0px;
+    margin-right: 20px;
+  }
+  #title1{
+    color: black;
+  }
+  #status-msg{
+    width: fit-content;
+    padding: 10px;
+    background-color: rgb(255, 146, 37);
+  }
