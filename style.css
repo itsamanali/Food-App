@@ -5,13 +5,13 @@ body {
   }
   
   header {
-    background-color: rgb(213, 49, 3);
+    /* background-color: rgb(213, 49, 3); */
     padding: 20px;
-    width: 1000px;
+    width: 100vw;
     text-align: center;
   }
   header h1{
-    color: #ffffff;
+    color: rgb(213, 49, 3);
 
   }
   
